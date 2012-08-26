@@ -18,6 +18,7 @@ public class ViewScoller extends FrameLayout {
 	private LinearLayout mButtomView;
 	private int mScreenWidth;
 
+	
 	// public LinearLayout getTopView() {
 	// return mTopView;
 	// }
