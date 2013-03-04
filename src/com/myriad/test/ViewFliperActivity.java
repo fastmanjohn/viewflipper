@@ -4,7 +4,7 @@ package com.myriad.test;
 import android.app.Activity;
 import android.os.Bundle;
 
-public class ViewScollerActivity extends Activity {
+public class ViewFliperActivity extends Activity {
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
