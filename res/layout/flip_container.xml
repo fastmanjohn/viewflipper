@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.fastmanjohn.test.FlipContainer xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/fliper_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:id="@+id/background_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <View
+            android:id="@+id/empty_space"
+            android:layout_width="40dip"
+            android:layout_height="fill_parent" />
+
+        <LinearLayout
+            android:id="@+id/background_view"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" >
+        </LinearLayout>
+    </LinearLayout>
+
+    <com.fastmanjohn.test.FlipView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/float_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <!-- 1st empty screen -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" />
+
+        <!-- 2nd sliding screen -->
+
+        <FrameLayout
+            android:id="@+id/float_view"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" >
+        </FrameLayout>
+
+        <!-- 3rd empty screen -->
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:visibility="invisible" />
+    </com.fastmanjohn.test.FlipView>
+
+</com.fastmanjohn.test.FlipContainer>

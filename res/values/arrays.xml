@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="top_list_tag">
+        <item>top 1</item>
+        <item>top 2</item>
+        <item>top 3</item>
+        <item>top 4</item>
+        <item>top 5</item>
+        <item>top 6</item>
+        <item>top 7</item>
+        <item>top 8</item>
+        <item>top 9</item>
+        <item>top 10</item>
+        <item>top 11</item>
+        <item>top 12</item>
+        <item>top 13</item>
+        <item>top 14</item>
+        <item>top 15</item>
+        <item>top 16</item>
+        <item>top 17</item>
+        <item>top 18</item>
+        <item>top 19</item>
+    </string-array>
+    <string-array name="background_list_tag">
+        <item>background 1</item>
+        <item>background 2</item>
+        <item>background 3</item>
+        <item>background 4</item>
+        <item>background 5</item>
+        <item>background 6</item>
+        <item>background 7</item>
+        <item>background 8</item>
+        <item>background 9</item>
+        <item>background 10</item>
+        <item>background 11</item>
+        <item>background 12</item>
+        <item>background 13</item>
+        <item>background 14</item>
+        <item>background 15</item>
+        <item>background 16</item>
+        <item>background 17</item>
+        <item>background 18</item>
+        <item>background 19</item>
+    </string-array>
+
+</resources>
